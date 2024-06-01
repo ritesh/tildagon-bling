@@ -22,7 +22,7 @@ class Bling(app.App):
     def draw(self, ctx):
         ctx.save()
         ctx.font_size = 90
-        ctx.rgb(250, 250, 210).rectangle(-120,-120,240,240).fill()
+        ctx.rgb(0.2, 0, 0).rectangle(-120,-120,240,240).fill()
         ctx.rgb(255, 215, 0).move_to(-100,20).text("Bling!")
         ctx.restore()
 
